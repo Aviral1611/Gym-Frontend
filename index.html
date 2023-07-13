@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MFitness reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title>GYM EDGE- A VIT Chennai Gym</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">GYM</span>EDGE</div>
+
+          <img
+            src="img/nav-icon.svg"
+            alt="navigation icon"
+            class="nav-icon"
+            width="30"
+            height="30"
+          />
+
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#courses">Courses</a>
+            </li>
+            <li>
+              <a href="#trainers">Plans</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:8000/accounts/login/">Admin</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">
+              A place for your fitness goals
+            </h1>
+            <p class="description">
+              We Offer Functional Training, Strength Training, Cardio, Calisthenics and more!
+            </p>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="about-box container">
+          <div class="about-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              About <span class="yellow">GYM</span>EDGE
+            </h2>
+            <p>
+              Welcome to our gym! We are dedicated to providing a safe and welcoming space for individuals of all fitness levels. Our mission is to help our members achieve their fitness goals by offering state-of-the-art equipment and expert guidance from our certified trainers. Whether you're a seasoned athlete or just starting your fitness journey, we have everything you need to succeed. Join our community and start reaching your fitness goals today!
+            </p>
+            <a href="#" class="link-button">Read More &rarr;</a>
+          </div>
+          <figure class="about-box__image" data-aos="fade-up">
+            <img
+              src="img/about-img-1.jpg"
+              alt="about-image-one"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-2.jpg"
+              alt="about-image-twwo"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-3.jpg"
+              alt="about-image-three"
+              width="420"
+              height="280"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- SECTION COURSES -->
+      <section class="section-courses" id="courses">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">Our Courses</h2>
+            <p>
+              At our gym, we offer a wide variety of classes to suit every fitness level and interest. From high-energy cardio to strength training and yoga, our certified instructors are here to guide you towards your fitness goals. Our group classes are designed to motivate and challenge you while providing a fun and supportive atmosphere. Whether you're looking to improve your endurance, gain strength, or simply relieve stress, we have a class for you. So come on in and try one of our classes today!
+            </p>
+          </header>
+
+          <article class="courses-content">
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-bodybuilding.jpg"
+                alt="body building course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Wide range of equipments and machines to help
+                    you to achieve your bodybuilding goals!
+                  </p>
+
+                  
+                </div>
+              </div>
+
+              <div class="class-card__title">Body Building</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-crossfit.jpg"
+                alt="cross fit course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    A dedicated Cross Fit section helps to break away the sweat and put your body to a good workout.
+              
+                  </p>
+
+                 
+                </div>
+              </div>
+              <div class="class-card__title">Cross Fit</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-gymnastic.jpg"
+                alt="gymnastic course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Get yourself competion ready by practicing and improving your gymnastic skills!
+                  </p>
+
+                  
+                </div>
+              </div>
+
+              <div class="class-card__title">Gymnastic</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-fitness.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Shed those Pounds and kep yourself in good shape with Cardio&Fitness.
+                  </p>
+
+                  
+                </div>
+              </div>
+              <div class="class-card__title">Fitness</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-TRX.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Your Calisthenics journey starts here! Star those pullups right now!
+                  </p>
+
+                  
+                </div>
+              </div>
+              <div class="class-card__title">Calisthenics</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-boxing.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Get that pent up anger out and unleash your inner CREED!
+                  </p>
+
+                  
+                </div>
+              </div>
+              <div class="class-card__title">Boxing</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offer">
+        <div class="offer-box">
+          <div class="offer" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Special offer this semester, get full Benefits along with access to the Table Tennis and Pool Table.
+            </h2>
+            <p class="margin-bottom">
+              Join our Full AC Gym with In-house music system and shower rooms for both men and women.
+              Choose from the plenty of equipments and machines and get healthy!
+            </p>
+           
+          </div>
+
+          <div class="offer-img"></div>
+        </div>
+      </section>
+
+      <!-- SECTION COACHES -->
+      <section class="section-coaches" id="trainers">
+        <div class="container coaches-box" data-aos="fade-up">
+          <header class="coache-heading">
+            <h2 class="heading heading--2 underline margin-bottom">
+              OUR PLANS
+            </h2>
+            <p>
+              Here are the plans offered by our Gym. Flexible plans for all kinds of users.
+              Half the money will be refunded if the customer wnats to leave the gym.
+              Full cashback guarantee for first 30 days to come try the gym.
+            </p>
+          </header>
+
+          <article class="coache-content">
+            <div class="c-card">
+              <img
+                src="img/coache-1.jpg"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+
+             
+
+              <div class="c-card__content">
+                <p class="c-name">PRICE: 2000 INR</p>
+                <p class="c-title">No shower room <br></p>
+                <p class = "c-title">Rigid with Timing</p>
+                <p class="c-title">No Trainer help<br></p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img
+                src="img/coache-2.jpg"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+
+              
+
+              <div class="c-card__content">
+                <p class="c-name">PRICE : 3500 INR</p>
+                <p class="c-title">Shower room allowed <br></p>
+                <p class="c-title">Rigid with timing</p>
+                <p class="c-title"> Trainer help given<br></p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img
+                src="img/coache-3.jpg"
+                alt="coache three"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+              
+
+              <div class="c-card__content">
+                <p class="c-name">PRICE: 6000 INR</p>
+                <p class="c-title">Benefits of previous plans</p>
+                <p class="c-title">Flexible with timing</p>
+                
+              </div>
+            </div>
+          </article>
+          <p class="paying">For payment and reciept:</p>
+          <button class="btn btn__primary vtop"><a href="https://vtopcc.vit.ac.in/vtop/open/page">GO</a></button>
+        </div>
+      </section>
+
+      <!-- SECTION REVIEW -->
+      <section class="section-review" id="review">
+        <div class="review-box container" data-aos="fade-up">
+          <h2 class="heading heading--2 underline margin-bottom grid-center">
+            what people say
+          </h2>
+
+          <div class="review-card">
+            <img
+              src="img/review-img-1.jpg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                A very good experience. The gym is great with so many facilities. Helped me get down my weight from 90kgs
+                to 60kgs and build my muscles. Would recommened everyone to join!
+              </p>
+
+              <div class="name">Shrestha Nagpal</div>
+            </blockquote>
+          </div>
+
+          <div class="review-card">
+            <img
+              src="img/review-img-2.jpg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                I have been a member of this gym for 2 years now. I have been able to maintain my weight and stay fit.
+                The trainers are very helpful and the gym is very clean.
+                
+              </p>
+              <div class="name">Somya Kapoor</div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION CONTACT -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form  class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Get in <span class="yellow">Touch</span>
+            </h2>
+
+            <input type="text" class="form form__input" placeholder="Name" />
+            <input type="text" class="form form__input" placeholder="Email" />
+            <input type="text" class="form form__input" placeholder="Phone" />
+            <textarea
+              name="message"
+              cols="1"
+              rows="1"
+              class="form form__input"
+              placeholder="Block"
+            ></textarea>
+            <button type="button" class="btn btn__primary form-flex Aviral" id="mack">Send</button>
+          </form>
+          <div id="mapid" data-aos="fade-up"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="margin-bottom"><span class="yellow">GYM</span>EDGE</h2>
+
+          <ul class="contact-data">
+            <li class="location">VIT CHENNAI, KELAMBAKKAM, CHENNAI</li>
+            <li class="phone">+91 9704567841</li>
+            <li class="email">gymedge@gmai.com</li>
+            <li class="social">
+              <img
+                src="./img/logo-whatsapp.svg"
+                alt="whatsapp icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-facebook.svg"
+                alt="facebook icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-instagram.svg"
+                alt="instagram icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-twitter.svg"
+                alt="twitter icon"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#trainers">Plans</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="newsletter">
+          <div class="newsletter__title">About College</div>
+          <div class="newsletter__text">
+            Interested in knowing more about the college? Click here!
+          </div>
+          
+          <button class="btn btn__primary"><a href="https://chennai.vit.ac.in/">Take a Tour</a></button>
+        </div>
+
+        <div class="legel">
+          <p class="text">Copyright &copy; by Aviral&nbsp;</p>
+          <a href="https://github.com/Aviral1611">
+            <img
+              src="img/github.svg"
+              alt="github"
+              class="github"
+              width="35"
+              height="35"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
