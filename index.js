@@ -4,12 +4,24 @@
 
 
 const button = document.getElementById('mack');
-console.log(true);
+
 
 button.addEventListener('click', function() {
   
   alert('Your Details have been sent!');
+  document.getElementById('punnen').value=null;
+  document.getElementById('qasim').value=null;
+  document.getElementById('thejas').value=null;
+  document.getElementById('adit').value=null;
+
+
+
+
 });
+
+
+
+
 
 
 
